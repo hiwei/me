@@ -269,7 +269,12 @@ object {
 }
 
 @media screen and (min-width: 0px) and (max-width: 1024px) {
-	#category {
+	#home {
+		background-image: url(../img/bg_small.jpg);
+		background-size: auto 50%;
+		background-position: center top;
+	}
+		#category {
 		display: none;
 	}
 	#category-title {
@@ -288,7 +293,7 @@ object {
 		font-size: 12pt;
 	}
 	#home {
-		font-size: 50pt;
+		font-size: 45pt;
 	}
 	#content {
 		padding: 0;
@@ -317,6 +322,9 @@ object {
 	}
 }
 @media screen and (min-width: 641px) and (max-width: 800px) {
+	#home {
+		font-size: 40pt;
+	}
 	#content {
 		padding: 0;
 		width: 600px;
