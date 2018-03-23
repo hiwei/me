@@ -35,7 +35,7 @@ $(document).ready(function() {
 	$('.outer-box').click( function() {
 		if ($(window).width() < 1025) { /* 用 mobile 直接跳頁面 */
 			var show = $(this).data('card');
-			$(location).attr('href', 'https://hiwei.github.io/weiii/'+ show +'.html');
+			$(location).attr('href', 'https://hiwei.github.io/me/'+ show +'.html');
 		} else {
 			var show = $(this).data('card');
 			$('#white, .ext-' +show).fadeIn(500);
