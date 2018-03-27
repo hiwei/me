@@ -190,7 +190,7 @@ p {
 		font-size: 11pt;
 	}
 	notice {
-		font-size: 14pt;
+		font-size: 16pt;
 	}
 	notice::after {
 		width: 20px;
@@ -198,16 +198,23 @@ p {
 		margin: 15px 0 15px 15px;
 	}
 	p {
-		width: 100%;
+		width: 90%;
 		font-size: 9pt;
 		margin-left: 10px;
-		padding-left: 5px;
+		padding-left: 10px;
+		border-left: 2px solid #87AFA0;
+	}
+	table {
+		width: 100%;
 	}
 	#name {
-		font-size: 20pt;
+		font-size: 24pt;
 	}
-	#name, #content, #exp {
-		width: 80%;
+	#name, #content {
+		width: 85%;
+	}
+	#exp {
+		width: 100%;
 	}
 	#about, #skill {
 		float: none;
@@ -216,16 +223,17 @@ p {
 	}
 	.table-year {
 		width: 10%;
-		font-size: 12pt;
+		font-size: 14pt;
 	}
 	.table-left {
 		width: 8%;
 	}
 	.table-right {
+		width: 100%;
 		padding-left: 5px;
 	}
 	#works_btn {
-		width: 30%;
-		font-size: 14pt;
+		width: 40%;
+		font-size: 16pt;
 	}
 }
