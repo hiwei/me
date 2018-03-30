@@ -22,7 +22,7 @@ big {
 	color: #143C23;
 }
 video {
-	margin: 5%;
+	margin: 5% auto;
 	max-width: 90%;
 	width: auto;
 	height: auto;
